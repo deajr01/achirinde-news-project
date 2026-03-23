@@ -1,0 +1,35 @@
+#menu a {
+    margin-right: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#menu a:link { color: black; }
+#menu a:visited { color: gray; }
+#menu a:hover { color: blue; text-decoration: underline; }
+#menu a:active { color: red; }
+#menu a:focus { outline: 2px solid blue; }
+
+#story {
+    border: 2px solid black;
+    padding: 10px;
+    width: 70%;
+}
+
+#pic {
+    float: right;
+    width: 250px;
+    margin-left: 15px;
+}
+
+#continue {
+    color: blue;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#continue:hover {
+    color: red;
+    text-decoration: underline;
+}
